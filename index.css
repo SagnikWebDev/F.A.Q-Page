@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(201, 195, 195);
+}
+header h1 {
+  color: rgb(149, 149, 36);
+  text-align: center;
+}
+section {
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: 0 0 5px black;
+}
+.box {
+  position: relative;
+  background-color: rgb(190, 157, 193);
+  padding-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  border: 2px solid black;
+}
+.addContentSection {
+  min-height: 67px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -68px;
+  transition: 400ms all ease-in;
+  border: none !important;
+  z-index: -1;
+}
+.addContent {
+  margin-top: -1px !important;
+  transition: 400ms all ease-in;
+}
+i {
+  transition: all 400ms ease-in;
+}
+.rotate {
+  transform: rotate(180deg);
+  transition: all 400ms ease-in;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+}
